@@ -133,7 +133,7 @@ tilepalette
 
 ;====================================================
 
-	savebin "tilemap.bin", start, tilemap-start
+
 	savenex open "tilemap.nex", start , $bffe
     savenex core 3, 0, 0      
     savenex cfg  0, 0            
