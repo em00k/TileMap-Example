@@ -89,7 +89,7 @@ mapright:
 .mrlp:	ld a,(hl) : ld (de),a :	inc h : add de,40
 		djnz .mrlp
 		
-		ld hl,offset+1 : inc (hl) : ld a,(hl) : cp 255-40 : call z,resetoffset	
+		ld hl,offset+1 : inc (hl) : ld a,(hl) : cp 255-40 : jp z,resetoffset	
 		ret 
 		
 resetoffset:
