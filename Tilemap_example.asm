@@ -1,3 +1,6 @@
+; 	Simple ZX Next Tile Map Example
+;	em00k20 / David Saphier 
+
 	device zxspectrumnext 
 
 	include "macros.asm"
