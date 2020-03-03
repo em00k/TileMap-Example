@@ -18,3 +18,5 @@ And run with CSpect with
 ```
 CSpect -w3 -60 -vsync -zxnext -brk -mmc=.\  tilemap.nex
 ```
+
+For info on the Next Registers used, see here : https://wiki.specnext.dev/Board_feature_control
