@@ -42,7 +42,7 @@ InitTileMap:
 		nextreg_nn $68,%10000000 : nextreg_nn $43,%00110000 
 		xor a : nextreg_a $14 : nextreg_a $4c :  nextreg_a $30 :  nextreg_nn $31,240
 		call ClearTilemap
-		ClipTile 4,154,0,255
+		ClipTile 4,155,0,255
 		ret 
 		
 ClearTilemap:
