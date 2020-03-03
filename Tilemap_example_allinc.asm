@@ -134,16 +134,16 @@ RasterWait:
 ;====================================================
 
 tilepalette	
-	incbin 		"MM.pal",0					; palette 
+	incbin 		"./assets/MM.pal",0					; palette 
 	
 	slot 7 												; slot 7 is mmu 7 @ 0xe000..0xffff
 	page tilemapFF : org $e000	
 tilemap		
-	incbin 		"lev1part1.map",0			; 6144 tilemap 
+	incbin 		"./assets/lev1part1.map",0			; 6144 tilemap 
 	
 	page tileimages : org $e000	
 tilebitmap	
-	incbin 		"mm.til",0					; tile bitmap 4bit 
+	incbin 		"./assets/mm.til",0					; tile bitmap 4bit 
 
 ;====================================================
 

@@ -122,13 +122,13 @@ RasterWait:
 ;====================================================
 
 tilemap		
-	db 		"lev1part1.map",0			; 6144 tilemap 
+	db 		"./assets/lev1part1.map",0			; 6144 tilemap 
 
 tilebitmap	
-	db 		"mm.til",0					; tile bitmap 4bit 
+	db 		"./assets/mm.til",0					; tile bitmap 4bit 
 
 tilepalette	
-	incbin 	"MM.pal",0					; palette 
+	incbin 	"./assets/MM.pal",0					; palette 
 	
 ;====================================================
 
